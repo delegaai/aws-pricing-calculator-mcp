@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">delega.ai for AWS Pricing Calculator</title>
+  <desc id="desc">delega.ai MCP connector logo</desc>
+  <rect width="400" height="400" rx="72" fill="#0b1220"/>
+  <path d="M92 104h112c54 0 98 44 98 98s-44 98-98 98H92V104zm58 58v80h54c22 0 40-18 40-40s-18-40-40-40h-54z" fill="#f8fafc"/>
+  <circle cx="296" cy="104" r="28" fill="#22c55e"/>
+  <path d="M278 104h36M296 86v36" stroke="#0b1220" stroke-width="10" stroke-linecap="round"/>
+</svg>
