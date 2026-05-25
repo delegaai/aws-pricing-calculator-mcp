@@ -22,13 +22,14 @@ https://calculator.delega.ai/mcp
 6. If the client requires explicit headers, ask the user for a delega.ai API key and configure `Authorization: Bearer <DELEGA_API_KEY>`.
 7. Connect and list tools.
 
-## Streamable HTTP config
+## Cline Streamable HTTP config
 
 ```json
 {
   "mcpServers": {
     "delega-ai-aws-pricing-calculator": {
       "url": "https://calculator.delega.ai/mcp",
+      "type": "streamableHttp",
       "disabled": false,
       "autoApprove": []
     }
@@ -43,6 +44,7 @@ https://calculator.delega.ai/mcp
   "mcpServers": {
     "delega-ai-aws-pricing-calculator": {
       "url": "https://calculator.delega.ai/mcp",
+      "type": "streamableHttp",
       "headers": {
         "Authorization": "Bearer <DELEGA_API_KEY>"
       },

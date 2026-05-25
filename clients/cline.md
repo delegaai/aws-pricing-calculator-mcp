@@ -22,6 +22,7 @@ Transport: Streamable HTTP
   "mcpServers": {
     "delega-ai-aws-pricing-calculator": {
       "url": "https://calculator.delega.ai/mcp",
+      "type": "streamableHttp",
       "disabled": false,
       "autoApprove": []
     }
@@ -36,6 +37,7 @@ If your setup requires an API key:
   "mcpServers": {
     "delega-ai-aws-pricing-calculator": {
       "url": "https://calculator.delega.ai/mcp",
+      "type": "streamableHttp",
       "headers": {
         "Authorization": "Bearer <DELEGA_API_KEY>"
       },
@@ -51,4 +53,3 @@ If your setup requires an API key:
 ```text
 Create an AWS Pricing Calculator estimate for a small production web app with one load balancer, two EC2 instances, an RDS PostgreSQL database, and S3 storage. Save the estimate and return the shareable calculator.aws URL.
 ```
-
