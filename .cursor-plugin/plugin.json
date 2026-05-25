@@ -1,0 +1,21 @@
+{
+  "name": "delega.ai for AWS Pricing Calculator",
+  "description": "Create, edit, save, and load AWS Pricing Calculator estimates and generate shareable calculator.aws URLs via MCP.",
+  "version": "1.0.0",
+  "logo": "assets/logo-400.png",
+  "homepage": "https://calculator.delega.ai/start/client",
+  "repository": "https://github.com/delegaai/aws-pricing-calculator-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "aws",
+    "pricing",
+    "calculator",
+    "cloud",
+    "cost-estimation"
+  ],
+  "author": {
+    "name": "delega.ai",
+    "url": "https://calculator.delega.ai"
+  }
+}
